@@ -1,7 +1,5 @@
 # AppTesis
-Propuesta de desarrollo de aplicación móvil en el SOM Android para la biblioteca académica la cual funge como complemento al trabajo escrito, donde se genera la arquitectura de la información, y los menús y componentes que debe contener la aplicación móvil. 
-
-La siguiente liga describe a partir de un video el funcionamiento de la app: https://youtu.be/zGQjrsXazeQ
+Propuesta de desarrollo de aplicación móvil en el SOM Android para la biblioteca académica la cual funge como complemento al trabajo escrito. La siguiente liga describe a partir de un video el funcionamiento de la app: https://youtu.be/zGQjrsXazeQ
 
 # Referencias
 Para el presente desarrollo se utilizaron los siguientes libros a manera de cursos para el desarrollo:

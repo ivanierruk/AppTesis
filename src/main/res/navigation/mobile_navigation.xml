@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_catalogo">
+
+    <fragment
+        android:id="@+id/nav_catalogo"
+        android:name="com.ivan.apptesis.ui.catalogo.CatalogoFragment"
+        android:label="@string/menu_catalogo"
+        tools:layout="@layout/fragment_catalogo" />
+
+    <fragment
+        android:id="@+id/nav_localizacion"
+        android:name="com.ivan.apptesis.ui.Localizacion.LocalizacionFragment"
+        android:label="@string/menu_localizacion"
+        tools:layout="@layout/fragment_localizacion" />
+
+    <fragment
+        android:id="@+id/nav_contacto"
+        android:name="com.ivan.apptesis.ui.Contacto.ContactoFragment"
+        android:label="@string/menu_contacto"
+        tools:layout="@layout/fragment_contacto" />
+
+    <fragment
+        android:id="@+id/nav_historia"
+        android:name="com.ivan.apptesis.ui.Historia.HistoriaFragment"
+        android:label="@string/menu_historia"
+        tools:layout="@layout/fragment_historia" />
+
+    <fragment
+        android:id="@+id/nav_servicios"
+        android:name="com.ivan.apptesis.ui.Servicios.ServiciosFragment"
+        android:label="@string/menu_servicios"
+        tools:layout="@layout/fragment_servicios" />
+
+    <fragment
+        android:id="@+id/nav_tutoriales"
+        android:name="com.ivan.apptesis.ui.Tutoriales.TutorialesFragment"
+        android:label="@string/menu_tutoriales"
+        tools:layout="@layout/fragment_tutoriales" />
+
+    <fragment
+        android:id="@+id/nav_eventos"
+        android:name="com.ivan.apptesis.ui.Eventos.EventosFragment"
+        android:label="@string/menu_eventos"
+        tools:layout="@layout/fragment_eventos" />
+
+    <fragment
+        android:id="@+id/nav_directorio"
+        android:name="com.ivan.apptesis.ui.Directorio.DirctorioFragment"
+        android:label="@string/menu_directorio"
+        tools:layout="@layout/fragment_directorio" />
+
+    <fragment
+        android:id="@+id/nav_lot"
+        android:name="com.ivan.apptesis.ui.Lot.LotFragment"
+        android:label="@string/menu_lot"
+        tools:layout="@layout/fragment_lot" />
+</navigation>

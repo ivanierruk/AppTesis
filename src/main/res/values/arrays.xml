@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones_busqueda_array">
+        <item>Titulo</item>
+        <item>Autor</item>
+        <item>Tema</item>
+        <item>Editorial</item>
+        <item>Lugar</item>
+        <item>Año</item>
+        <item>Serie</item>
+        <item>ISBN/ISSN</item>
+    </string-array>
+</resources>

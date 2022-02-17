@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.catalogo.CatalogoFragment">
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/titulo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="80dp"
+        >
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/disp_lot_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dispositivo Lot"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#2196F3"
+            />
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/busqueda_material_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Busqueda Material"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#8BC34A"
+
+            />
+
+        <Button
+            android:id="@+id/estadistica_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:text="Estadistica"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FF5722"
+            />
+    </LinearLayout>
+</LinearLayout>

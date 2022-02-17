@@ -1,6 +1,4 @@
 # AppTesis
-Respoitorio para mostrar el código de la aplicación móvil
-
 Propuesta de desarrollo de aplicación móvil en el SOM Android para la biblioteca académica la cual funge como complemento al trabajo escrito, donde se genera la arquitectura de la información, y los menús y componentes que debe contener la aplicación móvil. Tecnologías
 
 # Para el presente trabajo, se selecciona al SOM Android, como la plataforma de desarrollo, considerando las razones siguientes:
